@@ -55,6 +55,7 @@ public class Kotik {
 
     public boolean play() {
         if (this.levelOfEnergy <= 0) {
+            System.out.println("Cats hungry, and do not want play!");
             return false;
         } else {
             System.out.println("Cats playing!");
@@ -65,6 +66,7 @@ public class Kotik {
 
     public boolean sleep() {
         if (this.levelOfEnergy <= 0) {
+            System.out.println("Cats hungry, and do not want sleep!");
             return false;
         } else {
             System.out.println("Cats sleeping!");
@@ -75,6 +77,7 @@ public class Kotik {
 
     public boolean chaseMouse() {
         if (this.levelOfEnergy <= 0) {
+            System.out.println("Cats hungry, and do not want chase mouse!");
             return false;
         } else {
             System.out.println("Cats catch mouse!");
@@ -85,6 +88,7 @@ public class Kotik {
 
     public boolean purring() {
         if (this.levelOfEnergy <= 0) {
+            System.out.println("Cats hungry, and do not want purring!");
             return false;
         } else {
             System.out.println("Cats purring!");
@@ -95,6 +99,7 @@ public class Kotik {
 
     public boolean running() {
         if (this.levelOfEnergy <= 0) {
+            System.out.println("Cats hungry, and do not want running!");
             return false;
         } else {
             System.out.println("Cats running!");
